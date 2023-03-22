@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply bg-stone-100;
+}
+
+.active {
+    @apply border-2 border-sky-600 rounded-[50%]
+}
